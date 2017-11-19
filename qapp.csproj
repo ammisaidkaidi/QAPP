@@ -1,0 +1,125 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{08DF9FE6-DBAC-4D9D-AA78-97BD8894CDD5}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>qapp</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="index.html" />
+    <Content Include="test\test.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\applypatch-msg.sample" />
+    <None Include=".git\hooks\commit-msg.sample" />
+    <None Include=".git\hooks\post-update.sample" />
+    <None Include=".git\hooks\pre-applypatch.sample" />
+    <None Include=".git\hooks\pre-commit.sample" />
+    <None Include=".git\hooks\pre-push.sample" />
+    <None Include=".git\hooks\pre-rebase.sample" />
+    <None Include=".git\hooks\pre-receive.sample" />
+    <None Include=".git\hooks\prepare-commit-msg.sample" />
+    <None Include=".git\hooks\update.sample" />
+    <None Include=".git\index" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\master" />
+    <None Include=".git\logs\refs\remotes\origin\HEAD" />
+    <None Include=".git\objects\0a\73206e57b41ebf391ca1a65c845d8cf30e8808" />
+    <None Include=".git\objects\0a\c74209a3a066344f5fe3081874f52192ae8426" />
+    <None Include=".git\objects\18\a57d417d849843ffd69a100939dcc175b9d63a" />
+    <None Include=".git\objects\1f\5ac6aa08f0e9d276f9cb9258fd3bf84e3e219c" />
+    <None Include=".git\objects\2a\fe19a86c0e47a56e49764e2ecbf39bb0d12184" />
+    <None Include=".git\objects\2b\11124d9ca3d9b8c0be0fab229b1c7270118ce6" />
+    <None Include=".git\objects\2d\8db7fdf47b994d390cd8ef8123588817be6a0b" />
+    <None Include=".git\objects\2d\975a0cd5dd42afc055d89c5f72384ea1f9e9a2" />
+    <None Include=".git\objects\39\df00ab5acc3447a575f5d5f129d4214ddb650e" />
+    <None Include=".git\objects\40\c2fa9b1492a703e774e4f393df045811cecf58" />
+    <None Include=".git\objects\41\29176213bc9eb226cfb192c9414943d9c2fb0f" />
+    <None Include=".git\objects\42\4d878e6c74d36ccac48645823de11a3df0d973" />
+    <None Include=".git\objects\43\acf9b1c9ab5ee8a89d14e394419a17265ddf69" />
+    <None Include=".git\objects\45\1a83df129b123fdf992f9f91815be21f0302cd" />
+    <None Include=".git\objects\55\a9b6fe07276d02a6bbd8302a24359cf7a848d5" />
+    <None Include=".git\objects\5a\099364663ed1fa1c6e4f683bd94a27b96ee38c" />
+    <None Include=".git\objects\5a\83cb6de4ca42a57f20bffc098b4f58c1ab69b2" />
+    <None Include=".git\objects\5d\a45b6659e5cba8f444616f4e18529ad5dde72f" />
+    <None Include=".git\objects\69\c6170467b35b74c0f0263179cbcf611f090b00" />
+    <None Include=".git\objects\75\5c8ff38429f58c3e5c0f2bbc20c1ebf0287ac6" />
+    <None Include=".git\objects\7c\08d6b0707a56528203b87049d998e9c7e512c3" />
+    <None Include=".git\objects\83\3a8eda6090e0686cffc0e3d1451ea1b5fe1ecb" />
+    <None Include=".git\objects\91\07c5f2d2a25a1d600dfbfbf682b715d0f85580" />
+    <None Include=".git\objects\94\a9ed024d3859793618152ea559a168bbcbb5e2" />
+    <None Include=".git\objects\94\bff6748330d64bed915a0a24547748ef01f065" />
+    <None Include=".git\objects\99\736b47b51079201b8868aa75a678fe607c97b1" />
+    <None Include=".git\objects\9f\eee87877e66955b5d9d4ef9cc6a13221f0b5cb" />
+    <None Include=".git\objects\a5\81404bd749ce57a865106d3a8792c6964d54ad" />
+    <None Include=".git\objects\ba\ad8c24168a1db67d1932c002c1db18365fd937" />
+    <None Include=".git\objects\c3\f380cda53b074eecfd9a702dd498b15b70fe5c" />
+    <None Include=".git\objects\c4\ed2e0ce219c1d739f1ed847ea331d50918d0ac" />
+    <None Include=".git\objects\c8\5e8320f6907505ba678151ab8c54268d4817b1" />
+    <None Include=".git\objects\cc\74af1bca7c3c17bdea0006090d6e34251de89f" />
+    <None Include=".git\objects\d4\954e4faea008b427dda6ddbcbdcc70d3d64014" />
+    <None Include=".git\objects\d5\082c8a659d853d6393f8db8eadd7358481fb30" />
+    <None Include=".git\objects\d6\7151043824deb1acdc460028a41efabde3d7b5" />
+    <None Include=".git\objects\d6\80e0cf532473572ef72de0357b5cdf624ce0db" />
+    <None Include=".git\objects\d7\5f36184aa269e2e7fca03fc020f17b91bc508a" />
+    <None Include=".git\objects\dc\2196e6c4862dd14c746901d3b63d829fc1211b" />
+    <None Include=".git\objects\dd\fe351b67191b0b4797a48711c5fa78f9e5f8ea" />
+    <None Include=".git\objects\e3\c151a64630f912839b895772d44d3b16cf2b24" />
+    <None Include=".git\objects\e6\6cf2db39dc8d72b2849fbdfeb81fb2550a60a9" />
+    <None Include=".git\objects\e6\9de29bb2d1d6434b8b29ae775ad8c2e48c5391" />
+    <None Include=".git\objects\ef\70c482219daf8f52414be4c599ee249b013d6c" />
+    <None Include=".git\packed-refs" />
+    <None Include=".git\refs\heads\master" />
+    <None Include=".git\refs\remotes\origin\HEAD" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\objects\pack\" />
+    <Folder Include=".git\refs\tags\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
